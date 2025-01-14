@@ -35,3 +35,5 @@ news-aggregator/
 
 2. Run the Docker Container: To start a container from your image, run:
 	`docker run -p 3000:3000 news-app`
+
+3. Your app will be running on http://localhost:3000
