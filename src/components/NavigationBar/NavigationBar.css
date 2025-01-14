@@ -1,0 +1,111 @@
+.navbar {
+  background: linear-gradient(45deg, #6a11cb, #2575fc) !important; /* Beautiful gradient background */
+  padding: 20px !important;
+  font-size: 18px !important;
+  color: #ffffff !important; /* White text for contrast */
+}
+
+.nav-brand {
+  font-size: 23px !important;
+  margin-left: 10px !important;
+  font-weight: 700 !important;
+  color: #f3f4f6 !important; /* Slightly lighter white */
+}
+
+.nav {
+  margin-left: 5px !important;
+}
+
+.nav-item {
+  margin-left: 10px !important;
+  transition: 0.3s ease !important;
+  color: #e4e9f0 !important; /* Soft white-blue */
+}
+
+.nav-item:hover {
+  transform: translateY(-3px) !important;
+  text-decoration: underline !important;
+  color: #ffe259 !important; /* Eye-catching yellow for hover */
+}
+
+.close-btn {
+  color: #f0f8ff !important; /* Alice blue */
+  cursor: pointer !important;
+  margin-inline-end: 6px !important;
+}
+
+.search-form {
+  display: flex !important;
+  align-items: center !important;
+  margin: 10px 0;
+}
+
+.form-input {
+  border-radius: 0 !important;
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  padding: 11px !important;
+  margin-left: 13px !important;
+  margin-right: -9px !important;
+  font-size: 18px !important;
+  background-color: #ffffff !important; /* White background for input */
+  color: #333333 !important; /* Dark gray text */
+  border: 0 !important;
+  outline: 0 !important;
+  margin-top: 0 !important;
+}
+
+.form-input:focus {
+  box-shadow: 0px 0px 5px #6a11cb !important; /* Subtle glow effect */
+}
+
+.logo {
+  width: 45px !important;
+}
+
+.search-btn {
+  background-color: #ff6363 !important; /* Soft red for attention */
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+  padding: 10px 15px !important;
+  border-color: #ff9a9a !important;
+  font-size: 18px !important;
+  margin-right: 10px !important;
+  margin-top: 0 !important;
+}
+
+.search-btn::placeholder {
+  color: #f8f8f8 !important;
+  opacity: 1; /* Firefox */
+}
+
+.search-btn:hover {
+  background-color: #d94b4b !important; /* Darker red on hover */
+  transition: 0.5s ease !important;
+}
+
+.search-btn:disabled {
+  background-color: #ff9a9a !important; /* Faded red for disabled state */
+}
+
+.date-picker {
+  display: flex;
+  margin-left: 13px;
+}
+
+.date-picker input {
+  border-radius: 13px !important;
+  padding: 11px !important;
+  background-color: #ffffff !important; /* White input field */
+  color: #6a6a6a !important; /* Medium gray text */
+  border: 0 !important;
+  outline: 0 !important;
+  width: 150px;
+}
+
+.nav-link.active {
+  color: #ffe259 !important; /* Vibrant yellow for active links */
+}

@@ -1,0 +1,43 @@
+.details {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.channel,
+.published,
+.author {
+  color: #5a6268; /* Softer, modern gray */
+  margin-bottom: 5px;
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: block; /* Ensures consistent alignment */
+}
+
+.channel > span,
+.published > span,
+.author > span {
+  font-weight: 700;
+  color: #343a40; /* Darker shade for emphasis */
+  text-transform: uppercase;
+  letter-spacing: 0.5px; /* Slight letter spacing for better readability */
+}
+
+.channel:hover,
+.published:hover,
+.author:hover {
+  color: #495057; /* Slightly darker hover effect */
+  cursor: pointer;
+}
+
+.details span {
+  background-color: #e9ecef; /* Light background highlight */
+  padding: 2px 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.details span:hover {
+  background-color: #ced4da; /* Slight hover effect for spans */
+  color: #212529;
+}
